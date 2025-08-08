@@ -1,0 +1,64 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2023/08/06/19/01/colvers-8173610_640.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    }
+    .section-box {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(8px);
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2);
+        border-radius: 30px;
+        height: 85vh;
+        width: 85%;
+        overflow: hidden;
+        margin: 90px;
+      }
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100%;
+        padding: 0 50px;
+      }
+      .about-img {
+        width: 90%;
+        animation: zoomIn 1.4s ease-in-out forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
+      }
+      .left-grid,
+      .right-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      #about .right-grid {
+        align-items: center;
+      }
+      .section-sub {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color:greenyellow;
+        text-transform: capitalize;
+        animation: bottomIn 1s ease-in-out forwards;
+        animation-delay: 0.2s;
+        opacity: 0;
+      }
+       .left-grid p {
+        font-size: 18px;
+        line-height: 1.8;
+        color: rgb(233, 233, 233);
+        animation: bottomIn 1s ease-in-out forwards;
+        animation-delay: 0.4s;
+        opacity: 0;
+      }
+      
